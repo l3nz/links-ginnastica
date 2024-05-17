@@ -33,7 +33,13 @@ Spining
 - https://www.youtube.com/@CTXCvideos
 - https://www.youtube.com/@bestcycling_oficial - lista https://www.youtube.com/watch?v=QsS8Pj4n0So&list=PLFrb2djd0eeZ-I2jGiKb3RFAh5SOb8WIU
 
-Playlist musica elettrinica
+Playlist musica elettronica
 
 - https://www.youtube.com/playlist?list=PL9IOjFRFjrOlaSN20n8BVup9Sw5pECF_N
+- 
+
+Ralph supermaxieroe
+
+- https://invidious.fi/playlist?list=PLtbMv4lXX2mvVYagk6BgBnNsr6VH0KUmG
+
 - 
