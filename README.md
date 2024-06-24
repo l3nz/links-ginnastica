@@ -1,6 +1,48 @@
 # links-ginnastica
 Una serie di link per fare ginnastica
 
+<script>
+  class LinksComponent extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: 'open' });
+  }
+
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    const name = this.getAttribute('name') || '';
+    const frag = this.getAttribute('frag') || '';
+    const sites = ['site1', 'site2']; // Add more sites as needed
+
+    const links = sites.map(site => `
+      <a href="${site}/${frag}">${name} ${site}</a>
+    `).join('');
+
+    this.shadowRoot.innerHTML = `
+      <style>
+        :host {
+          display: block;
+        }
+        a {
+          margin-right: 10px;
+        }
+      </style>
+      <div>${links}</div>
+    `;
+  }
+}
+
+customElements.define('links-component', LinksComponent);
+</script>
+
+
+ <links-component name="pippo" frag="1234"></links-component>
+
+  <links-component name="pluto" frag="3456"></links-component>
+
 
 # Spinning
 
